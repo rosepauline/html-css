@@ -1,0 +1,195 @@
+.p-tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.p-biggest-deals {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.p-sales {
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(250, 76, 76);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.p-course {
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.p-pro {
+    font-family: Verdana;
+    font-size: 14px;
+    margin-top: 2px;
+    color: rgba(98, 98, 98, 0.804);
+}
+
+.p-developer {
+    font-family: Verdana;
+    font-size: 14px;
+    width: 270px;
+    line-height: 16px;
+}
+
+.btn-get-started {
+    font-family: Verdana;
+    background-color: rgb(61, 112, 12);
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.p-title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.p-content {
+    margin-top: 8px;
+    padding-top: 0px;
+    font-family: Arial;
+    padding-left: 60px;
+    /* width: 330px; */
+    font-size: 13px;
+}
+
+.p-learn-more {
+    font-family: Arial;
+    padding-left: 115px;
+    font-size: 12px;
+    color: rgb(35, 98, 224);
+}
+
+.p-new {
+    color: rgb(202, 43, 43);
+    font-family: Arial;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.p-macbook {
+    margin-top: 2px;
+    color: rgb(11, 9, 9);
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.p-supercharged {
+    margin-top: 2px;
+    font-family: Arial;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.p-amt {
+    margin-top: 2px;
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.btn-buy {
+    font-family: Arial;
+    font-size: 11px;
+    background-color: rgb(27, 88, 228);
+    color: white;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    /* centres button */
+    display: block;
+    margin: 0 auto;
+    /* centres button */
+}
+
+.p-price {
+    color: rgb(59, 59, 59);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 28px;
+    text-indent: 2px;
+    margin-bottom: 0px;
+}
+
+.p-currency {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+}
+
+.p-change {
+    margin-top: 4px;
+    font-family: Arial;
+    font-size: 14px;
+    color: green;
+    margin-bottom: 0px;
+}
+
+.p-after-hrs {
+    margin-top: 6px;
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    margin-bottom: 0px;
+}
+
+.p-percent {
+    color: rgb(202, 13, 13);
+}
+
+.p-freecodecamp {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.p-1h {
+    color: rgb(114, 113, 113);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.p-description {
+    font-family: Arial;
+    margin-top: 4px;
+    width: 500px;
+}
+
+.p-here {
+    font-family: Arial;
+    margin-top: 4px;
+}
+
+.p-chpit {
+    color: rgb(5, 139, 212);
+}
