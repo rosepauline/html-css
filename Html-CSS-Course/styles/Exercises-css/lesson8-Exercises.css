@@ -7,3 +7,36 @@
     margin-top: 4px;
     display: block;
 }
+
+.p {
+    width: 210px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-img {
+    width: 300px;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px; */
+}
+
+.search-bar-shadow {
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 200px;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(153, 154, 154);
+    border-width: 1px;
+    box-shadow: 1px 1px 5px rgb(208, 204, 204);
+}
