@@ -1,0 +1,181 @@
+.red-square {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.green-circle {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.div-border {
+    border: 1px solid rgb(172, 172, 172);
+    padding-left: 12px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    /* display: inline-block; */
+    width: 300px;
+    box-shadow: 0.5px 0.5px 5px rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+
+.service {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.yes,
+.no {
+    font-weight: bold;
+}
+
+.youtube-div {
+    /* border: 1px black; */
+    background-color: rgb(24, 24, 24);
+    width: 350px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 0px;
+}
+
+.paragraph {
+    color: rgb(155, 150, 150);
+}
+
+.div-box {
+    height: 336px;
+    width: 200px;
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: .5px .5px 5px rgb(104, 98, 98);
+    margin-bottom: 20px;
+}
+
+.cat-img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+.name {
+    margin-top: 16px;
+    margin-left: 7px;
+    line-height: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mutual-friends {
+    margin-left: 7px;
+    color: rgb(104, 98, 98);
+}
+
+.add-friend {
+    margin-left: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(51, 88, 190);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.div-box1 {
+    height: 336px;
+    width: 200px;
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: .5px .5px 5px rgb(104, 98, 98);
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.div-box2 {
+    height: 336px;
+    width: 200px;
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: .5px .5px 5px rgb(104, 98, 98);
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.div-box3 {
+    height: 336px;
+    width: 200px;
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: .5px .5px 5px rgb(104, 98, 98);
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.div-google {
+    text-align: center;
+}
+
+.google-img {
+    width: 300px;
+    dsisplay: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar {
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 200px;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(228, 228, 228);
+    border-width: 1px;
+    box-shadow: 1px 1px 5px rgb(208, 204, 204);
+    margin-bottom: 8px;
+    margin-bottom: 24px;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.google-search {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+}
+
+.feeling-lucky {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+}

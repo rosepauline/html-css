@@ -1,0 +1,76 @@
+.cat {
+    border: white;
+    width: 400px;
+    height: 80px;
+}
+
+.profile-img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cat-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.prof-img-details {
+    display: inline-block;
+    line-height: 4px;
+    /* margin-right: 100px; */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.desc1 {
+    font-size: 16px;
+    color: gray;
+}
+
+.desc2 {
+    font-size: 16px;
+    color: gray;
+}
+
+.buttonc {
+    display: inline-block;
+    float: right;
+}
+
+.follow-btn {
+    position: relative;
+    top: 24px;
+    background-color: rgb(13, 125, 238);
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    margin-left: 100%;
+}
+
+.cat1-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.cat2-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.cat3-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}

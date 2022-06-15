@@ -100,7 +100,7 @@ img {
 }
 
 .input-field:focus {
-    outline: none !important;
+    /* outline: none !important; */
     outline: none;
 }
 
