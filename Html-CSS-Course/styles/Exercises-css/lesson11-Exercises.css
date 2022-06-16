@@ -1,0 +1,18 @@
+.box-square-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.prof-img-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.channel-img-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.thumbnail-div {
+    width: 100%;
+}
