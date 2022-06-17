@@ -1,0 +1,136 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: rgb(179, 176, 176);
+    box-shadow: 0px 0px 0.5px rgb(56, 55, 55);
+    border-width: 2px;
+    border-radius: 4px;
+    width: 260px;
+    margin-bottom: 30px;
+}
+
+.flex-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+
+.btn {
+    background-color: rgb(16, 81, 235);
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 12px;
+    color: white;
+    margin-right: 6px;
+}
+
+.title {
+    text-shadow: 0 0 1px rgb(56, 55, 55);
+}
+
+.flex-design {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.profile-details-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prof-img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.profile-details {
+    justify-content: space-between;
+    flex: 1;
+    line-height: 5px;
+    color: transparent;
+    text-shadow: 0 0 0.5px gray;
+    font-size: 16px;
+}
+
+.prof-title {
+    text-shadow: 0 0 1px black;
+    color: black;
+    margin-top: 8px;
+}
+
+.btn-clas {
+    background-color: rgba(11, 89, 223, 0.861);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+}
+
+.head-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 46px;
+    align-items: center;
+}
+
+.left-section-home {
+    width: 40px;
+    /* background-color: lightpink; */
+    /* margin-right: 60px; */
+    margin-left: 8px;
+    color: white;
+}
+
+.middle-section-search {
+    flex: 1;
+    margin-right: 60px;
+    margin-left: 60px;
+    max-width: 600px;
+}
+
+.search {
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+    box-shadow: 0px 0px 0.5px rgb(143, 143, 143);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    width: 350px;
+}
+
+.right-section-download-btn {
+    width: 92px;
+}
+
+.download-btn {
+    background-color: blueviolet;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+}
