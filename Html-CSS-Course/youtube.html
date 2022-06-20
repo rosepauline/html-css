@@ -21,33 +21,94 @@
         </div>
         <div class="middle-section">
             <input class="search-bar" type="text" placeholder="Search">
-            <button class="search-button"><img class="search-icon"  src="/icons/search.png"></button>
-            <button class="voice-search-button"><img class="voice-search-icon" src="/icons/mic.png"></button>
+            <button class="search-button">
+                <img class="search-icon"  src="/icons/search.png">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="/icons/mic.png">
+                <div class="tooltip">Search with your voice</div>
+            </button>
         </div>
         <div class="right-section">
-            <img class="upload-icon" src="/icons/add-video.png">
-            <img class="youtube-apps-icon" src="/icons/dots-menu.png">
-            <img class="notifications-icon" src="/icons/bell (1).png">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="/icons/add-video.png">
+                <div class="tooltip">create</div>
+            </div>
+            <div class="apps-icon-container">
+                <img class="youtube-apps-icon" src="/icons/dots-menu.png">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <div class="bell-icon-container">
+                    <img class="notifications-icon" src="/icons/bell (1).png">
+                    <div class="tooltip">notifications</div>
+                </div>
+                <div class="notifications-count">3</div>
+            </div>
+
             <img class="current-user-picture" src="/channel-pictures/profile-pic.jpg">
         </div>
     </div>
 
-    <div class="sidebar">SideBar</div>
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/sidebar-icons/home.png">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/sidebar-icons/explore.png">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/sidebar-icons/subscriptions .png">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/sidebar-icons/originals.png">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/sidebar-icons/music-youtube.png">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/sidebar-icons/subscriptions .png">
+            <div>Library</div>
+        </div>
+    </div>
 
 
     <div class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/1.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/1.webp">
+                </a>
+                <div class="video-time">14:20</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p1.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p1.jpg">
+                        <div class="profile-tooltip">test
+                            <!-- <img class="profile-picture-img" src="thumbnails/p1.jpg"> -->
+                            <!-- <div class="channel-details">
+                                <p class="channel-owner">
+                                    Marques Brownlee
+                                </p>
+                                <p class="channel-subscribers-count">15M subscribers</p>
+                            </div> -->
+
+                        </div>
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Talking Tech and AI with Google CEO Sundar Pichai!
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                    </a>
                     <p class="video-author">
                         Marques Brownlee
                     </p>
@@ -60,16 +121,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/2.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/2.webp">
+                </a>
+                <div class="video-time">8:22</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p2.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p2.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Try Not To Laugh Challenge #9
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Try Not To Laugh Challenge #9
+                        </p>
+                    </a>
                     <p class="video-author">
                         Markiplier
                     </p>
@@ -82,16 +150,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/3.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/3.webp">
+                </a>
+                <div class="video-time">9:13</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p3.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p3.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Crazy Tik Toks Taken Moments Before DISASTER
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                    </a>
                     <p class="video-author">
                         SSSniperWolf
                     </p>
@@ -104,16 +179,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/4.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/4.webp">
+                </a>
+                <div class="video-time">13:20</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p4.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p4.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        The Simplest Math Problem No One Can Solve - Collatz Conjecture
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                        </p>
+                    </a>
                     <p class="video-author">
                         Veritasium
                     </p>
@@ -126,16 +208,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/5.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/5.webp">
+                </a>
+                <div class="video-time">1:30</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p5.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p5.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Kadane's Algorithm to Maximum Sum Subarray Problem
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                    </a>
                     <p class="video-author">
                         CS Dojo
                     </p>
@@ -148,16 +237,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/6.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/6.webp">
+                </a>
+                <div class="video-time">4:20</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p6.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p6.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Anything You Can Fit In The Circle I’ll Pay For
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                    </a>
                     <p class="video-author">
                         MrBeast
                     </p>
@@ -170,16 +266,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/7.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/7.webp">
+                </a>
+                <div class="video-time">6:18</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p7.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p7.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Kadane's Algorithm to Maximum Sum Subarray Problem
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                    </a>
                     <p class="video-author">
                         CS Dojo
                     </p>
@@ -192,16 +295,23 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/8.webp">
+                <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                    <img class="thumbnail" src="thumbnails/8.webp">
+                </a>
+                <div class="video-time">7:12</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="thumbnails/p8.jpg">
+                    <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
+                        <img class="profile-picture" src="thumbnails/p8.jpg">
+                    </a>
                 </div>
-                <div class="video-info">
-                    <p class="video-title">
-                        Anything You Can Fit In The Circle I’ll Pay For
-                    </p>
+                <div class="video-details-grid">
+                    <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
+                        <p class="video-title">
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                    </a>
                     <p class="video-author">
                         MrBeast
                     </p>
@@ -211,6 +321,8 @@
                 </div>
             </div>
         </div>
+
+
     </div>
 </body>
 
