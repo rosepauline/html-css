@@ -1,0 +1,68 @@
+.ytvpp-header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 6px 0px 7px 26px
+    
+
+}
+.left-section-flex{
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    height: 24px;
+}
+.youtube-icon{
+    height: 48px;
+}
+
+.middle-section-flex{
+    display: flex;
+    align-items: center;
+    
+}
+.search-bar-input{
+    padding: 12.5px 0px 12.5px 0px;
+    border: 1px solid grey;
+}
+
+.search-bar-input::placeholder{
+    padding: 0 0px 0 8px;
+}
+
+.search-icon-div{
+    background-color: rgb(243, 242, 242);
+    padding: 8px 18px 4px 18px;
+    border: 1px solid grey;
+}
+.search-icon{
+    height: 24px;
+}
+.voice-search-icon{
+    height: 24px;
+}
+
+.right-section-flex{
+    display: flex;
+    align-items: center;
+}
+.upload-video-icon{
+    height: 24px;
+}
+
+.dotted-menu-icon{
+    height: 24px;
+}
+
+.notifications-icon{
+    height: 24px;
+}
+
+.channel-img-icon{
+    height: 24px;
+}

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="left-section">
             <img class="hamburger-menu" src="/icons/menu.png">
             <img class="youtube-logo" src="/icons/youtube.jfif">
@@ -25,6 +25,7 @@
                 <img class="search-icon"  src="/icons/search.png">
                 <div class="tooltip">Search</div>
             </button>
+            <!--Put position absolute inside position relartive-->
             <button class="voice-search-button">
                 <img class="voice-search-icon" src="/icons/mic.png">
                 <div class="tooltip">Search with your voice</div>
@@ -49,9 +50,9 @@
 
             <img class="current-user-picture" src="/channel-pictures/profile-pic.jpg">
         </div>
-    </div>
+    </header>
 
-    <div class="sidebar">
+    <nav class="sidebar">
         <div class="sidebar-link">
             <img src="icons/sidebar-icons/home.png">
             <div>Home</div>
@@ -76,10 +77,12 @@
             <img src="icons/sidebar-icons/subscriptions .png">
             <div>Library</div>
         </div>
-    </div>
+    </nav>
 
+<main>
 
-    <div class="video-grid">
+    <section class="video-grid">
+
         <div class="video-preview">
             <div class="thumbnail-row">
                 <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
@@ -91,14 +94,14 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p1.jpg">
-                        <div class="profile-tooltip">test
-                            <!-- <img class="profile-picture-img" src="thumbnails/p1.jpg"> -->
-                            <!-- <div class="channel-details">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p1.jpg">
+                            <div class="channel-details">
                                 <p class="channel-owner">
                                     Marques Brownlee
                                 </p>
                                 <p class="channel-subscribers-count">15M subscribers</p>
-                            </div> -->
+                            </div>
 
                         </div>
                     </a>
@@ -118,18 +121,28 @@
                 </div>
             </div>
         </div>
-
+      
         <div class="video-preview">
             <div class="thumbnail-row">
                 <a class="video-preview-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s" target="_blank">
-                    <img class="thumbnail" src="thumbnails/2.webp">
+                    <img class="thumbnail" src="thumbnails/1.webp">
                 </a>
-                <div class="video-time">8:22</div>
+                <div class="video-time">14:20</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p2.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p2.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    Markiplier
+                                </p>
+                                <p class="channel-subscribers-count">15M subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -159,6 +172,16 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p3.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p3.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    SSSniperWolf
+                                </p>
+                                <p class="channel-subscribers-count">12M subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -188,6 +211,16 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p4.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p4.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    Veritasium
+                                </p>
+                                <p class="channel-subscribers-count">19M subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -217,6 +250,16 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p5.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p5.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    CS Dojo
+                                </p>
+                                <p class="channel-subscribers-count">1.9M subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -246,6 +289,16 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p6.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p6.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    MrBeast
+                                </p>
+                                <p class="channel-subscribers-count">10K subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -275,6 +328,16 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p7.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p7.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    CS Dojo
+                                </p>
+                                <p class="channel-subscribers-count">10M subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -304,6 +367,16 @@
                 <div class="channel-picture">
                     <a class="video-preview-link" href="https://www.youtube.com/channel/UCR1mVljbb6roBJeQIEgybTQ" target="_blank">
                         <img class="profile-picture" src="thumbnails/p8.jpg">
+                        <div class="profile-tooltip">
+                            <img class="profile-picture-img" src="thumbnails/p8.jpg">
+                            <div class="channel-details">
+                                <p class="channel-owner">
+                                    MrBeast
+                                </p>
+                                <p class="channel-subscribers-count">15M subscribers</p>
+                            </div>
+
+                        </div>
                     </a>
                 </div>
                 <div class="video-details-grid">
@@ -323,7 +396,10 @@
         </div>
 
 
-    </div>
+    </section>
+
+</main>
+ 
 </body>
 
 </html>
