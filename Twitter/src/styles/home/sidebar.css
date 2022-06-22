@@ -1,0 +1,195 @@
+.sidebar-flex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    border-right: 0.001px solid rgb(233, 233, 233);
+    background-color: white;
+}
+
+.sidebar-top-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 12px;
+    padding-bottom: 50px;
+}
+
+.twitter-bird-icon {
+    height: 34px;
+    width: 34px;
+    margin-bottom: 10px;
+}
+
+.home-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.home-p {
+    font-size: 20px;
+}
+
+.explore-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hashtag-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.explore-p {
+    font-size: 20px;
+}
+
+.notifications-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notification-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.notifications-p {
+    font-size: 20px;
+}
+
+.messages-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.envelop-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.messages-p {
+    font-size: 20px;
+}
+
+.bookmarks-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bookmarks-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.bookmarks-p {
+    font-size: 20px;
+}
+
+.lists-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lists-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.lists-p {
+    font-size: 20px;
+}
+
+.profile-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.profile-p {
+    font-size: 20px;
+}
+
+.more-div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.more-icon {
+    height: 24px;
+    margin-right: 18px;
+}
+
+.more-p {
+    font-size: 20px;
+}
+
+.tweet-btn {
+    background-color: rgb(18, 168, 233);
+    border: 1px solid rgb(18, 168, 233);
+    border-radius: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 220px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    font-size: 19px;
+    color: white;
+    margin-top: 8px;
+}
+
+.sidebar-bottom-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.profile-img {
+    height: 50px;
+    width: 50px;
+}
+
+.profile-details-div {
+    line-height: 5px;
+    padding-left: 8px;
+    padding-right: 75px;
+}
+
+.profile-name-p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.profile-at-p {
+    font-size: 14px;
+    color: rgb(113, 110, 110);
+}
+
+.dotted-menu-icon {
+    height: 16px;
+    width: 16px;
+}
