@@ -1,0 +1,265 @@
+.middle-div-flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 320px;
+    top: 0px;
+    bottom: 0px;
+    width: 600px;
+    /* background-color: aqua; */
+}
+
+.middle-home-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 320px;
+    right: 0px;
+    width: 600px;
+    /* border-right: 0.001px solid rgb(233, 233, 233); */
+    align-items: center;
+    z-index: 20;
+}
+
+.middle-head-p {
+    margin-left: 14px;
+    font-weight: 700;
+}
+
+.sparkle-icon {}
+
+.content-flex {
+    position: relative;
+    top: 51px;
+    left: -8px;
+    right: 0px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    z-index: 19;
+    border-bottom: 1px solid rgba(225, 223, 223, 0.4);
+    padding-bottom: 10px;
+}
+
+.profile-img1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.content-div-flex {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    line-height: 40px;
+}
+
+.choose-audience {}
+
+.choose-aud-select {
+    border-radius: 24px;
+    width: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid rgb(182, 182, 182, 0.8);
+    color: rgb(0, 172, 238);
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.whats-happening {
+    border: none;
+    font-size: 19px;
+    /* color: rgb(0, 0, 0); */
+}
+
+.who-can-reply {
+    margin-left: 10px;
+    margin-bottom: 8px;
+    width: 500px;
+    border-bottom: 1px solid rgba(225, 223, 223, 0.4);
+}
+
+#globe-icon {
+    color: rgb(0, 172, 238);
+}
+
+.who-can-reply-select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    color: rgb(0, 172, 238);
+    font-weight: 700;
+}
+
+.icons-list-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-list {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#image-icon {
+    padding-right: 12px;
+    color: rgb(0, 172, 238);
+}
+
+#gif-icon {
+    padding-right: 12px;
+    color: rgb(0, 172, 238);
+}
+
+#poll-icon {
+    padding-right: 12px;
+    color: rgb(0, 172, 238);
+}
+
+#emoji-icon {
+    padding-right: 12px;
+    color: rgb(0, 172, 238);
+}
+
+#schedule-icon {
+    padding-right: 12px;
+    color: rgb(0, 172, 238);
+}
+
+#location-icon {
+    color: rgb(0, 172, 238);
+}
+
+.tweet-button {
+    background-color: rgb(18, 168, 233, 0.5);
+    border: none;
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 19px;
+    color: white;
+    margin-right: 20px;
+}
+
+.icons-list-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 51px;
+    left: -8px;
+    right: 0px;
+    width: 600px;
+    background-color: white;
+}
+
+.post-see-more-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chat-icon {
+    height: 16px;
+    width: 16px;
+    margin-left: 52px;
+    margin-right: 14px;
+    color: grey;
+}
+
+.see-more-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.food-p {
+    color: grey;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.see-more-p {
+    color: rgb(18, 168, 233);
+    font-size: 12px;
+}
+
+.post-details-flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid rgba(225, 223, 223, 0.4);
+    /* background-color: red; */
+}
+
+.prof-images {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.post-content-details {}
+
+.post-head-details {
+    line-height: 8px;
+}
+
+.post-title-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-head-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 510px;
+    /* background-color: aquamarine; */
+}
+
+.dots-menu {
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+}
+
+.imgs {
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+
+.imgs-icon {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.icons4-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-bottom: 14px;
+}

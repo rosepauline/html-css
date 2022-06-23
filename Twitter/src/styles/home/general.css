@@ -1,6 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 3000px;
+    /* margin-bottom: 3000px; */
     background-color: rgb(242, 242, 242);
-    margin-right: 3000px;
+    /* margin-right: 3000px; */
+    margin-top: 0px;
+}
+
+.main-div-flex {
+    display: flex;
+    flex-direction: row;
 }

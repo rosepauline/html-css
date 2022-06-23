@@ -1,4 +1,34 @@
-.header-flex {
+.sparkle-icon {
+    height: 24px;
+    width: 24px;
+    padding-right: 15px;
+}
+
+
+/* .head-home-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    left: 332px;
+    width: 600px;
+    border-right: 0.001px solid rgb(233, 233, 233);
+}
+
+.home-head-p {
+    font-weight: 700;
+}
+
+.sparkle-icon {
+    height: 24px;
+    width: 24px;
+    padding-right: 15px;
+} */
+
+
+/* .header-flex {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -25,11 +55,12 @@
     font-size: 20px;
 }
 
-.sparkle-icon {
-    height: 24px;
-    width: 24px;
-    padding-right: 15px;
+.head-home-flex {
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 
 /* 

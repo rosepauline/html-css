@@ -1,0 +1,31 @@
+.right-div-flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 313px;
+    top: 0px;
+    bottom: 0px;
+    width: 428px;
+    /* border-left: 1px solid rgba(0, 0, 0, 0.4); */
+}
+
+.header-right-flex {
+    margin-left: 26px;
+    margin-top: 6px;
+    background-color: white;
+    position: fixed;
+    left: 894px;
+    top: -6px;
+    height: 50px;
+    width: 428px;
+}
+
+.search-twitter-input {
+    border-radius: 40px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 55px;
+    padding-right: 129px;
+    background-color: rgb(233, 241, 255);
+}
