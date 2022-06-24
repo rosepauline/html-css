@@ -1,23 +1,29 @@
 .right-div-flex {
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* background-color: lightcoral; */
+    width: 100%;
+    /* position: relative;
     left: 313px;
     top: 0px;
     bottom: 0px;
-    width: 428px;
+    width: 428px; */
+    /* width: 1fr; */
     /* border-left: 1px solid rgba(0, 0, 0, 0.4); */
+    border-left: 1px solid rgba(225, 223, 223, 0.4);
 }
 
 .header-right-flex {
-    margin-left: 26px;
-    margin-top: 6px;
     background-color: white;
     position: fixed;
-    left: 894px;
-    top: -6px;
-    height: 50px;
-    width: 428px;
+    left: 921px;
+    right: 0px;
+    /* height: 51px; */
+    /* width: 100%; */
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-left: 1px solid rgba(225, 223, 223, 0.4);
 }
 
 .search-twitter-input {
@@ -28,4 +34,212 @@
     padding-left: 55px;
     padding-right: 129px;
     background-color: rgb(233, 241, 255);
+    font-size: 16px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 12px;
+    color: grey;
+    min-width: 50px;
+    text-align: center;
+}
+
+.whats-happening-flex {
+    background-color: rgba(248, 248, 248, 0.8);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 345px;
+    margin-left: 38px;
+    border-radius: 10px;
+    line-height: 20px;
+    margin-right: 60px;
+}
+
+.wp-p {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.wh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    /* padding-right: 7px; */
+}
+
+.wh:hover {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    background-color: rgba(236, 233, 233, 0.8);
+}
+
+.wh-div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c1 {
+    font-size: 16px;
+    margin-bottom: -10px;
+    color: gray;
+}
+
+.c2 {}
+
+.c2-img {
+    height: 18px;
+    width: 18px;
+}
+
+.c3-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.c2-desc {
+    width: 235px;
+    font-weight: 500;
+}
+
+.c3-flex {
+    margin-top: -28px;
+}
+
+.c3-desc1 {
+    color: gray;
+}
+
+.c3-desc2 {
+    color: rgb(0, 172, 238);
+}
+
+.wh-div2-img {
+    height: 68px;
+    width: 68px;
+    border-radius: 14px;
+    margin-top: -41px;
+}
+
+.who-to-follow-flex {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 248, 248, 0.8);
+    ;
+    margin-top: 22px;
+    width: 345px;
+    margin-left: 38px;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+
+.who-to-follow-p {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.follow-profile-details-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.follow-profile-details-flex:hover {
+    background-color: rgba(236, 233, 233, 0.8);
+}
+
+.fp-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: -22px;
+}
+
+.fp-content-flex {
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    margin-left: 14px;
+}
+
+.fp-content-head-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fp-head {
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+.fp-verified-img {
+    height: 16px;
+    width: 16px;
+}
+
+.at-p {
+    margin-top: 1px;
+    margin-bottom: 12px;
+    color: gray;
+}
+
+.promoted-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.open-link-icon {
+    height: 12px;
+    width: 12px;
+    /* color: gray; */
+}
+
+.prompted {
+    margin-left: 4px;
+    font-size: 14px;
+    color: gray;
+}
+
+.follow-btn {
+    margin-top: -26px;
+    padding-left: 17px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 16px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-left: 85px;
+}
+
+.show-more {
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: rgb(0, 172, 238);
+}
+
+.show-more:hover {
+    background-color: rgba(236, 233, 233, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

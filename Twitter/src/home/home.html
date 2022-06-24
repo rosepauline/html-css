@@ -3,12 +3,11 @@
 
 <head>
     <title>Home / Twitter</title>
-    <link rel="stylesheet" href="/src/styles/home/home.css">
     <link rel="stylesheet" href="/src/styles/home/sidebar.css">
     <link rel="stylesheet" href="/src/styles/home/general.css">
-    <link rel="stylesheet" href="/src/styles/home/header.css">
     <link rel="stylesheet" href="/src/styles/home/middle.css">
     <link rel="stylesheet" href="/src/styles/home/right.css">
+    <link rel="stylesheet" href="/src/styles/home/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -21,37 +20,60 @@
         <div class="sidebar-flex ">
             <div class="sidebar-top-flex ">
                 <img class="twitter-bird-icon " src="/src/images/sidebar/twitter-bird.png ">
-                <div class="home-div-flex ">
-                    <img class="home-icon " src="/src/images/sidebar/home-icon.png ">
-                    <p class="home-p ">Home</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="home-icon " src="/src/images/sidebar/home-icon.png ">
+                        <p class="home-p ">Home</p>
+                    </span>
+
                 </div>
-                <div class="explore-div-flex ">
-                    <img class="hashtag-icon " src="/src/images/sidebar/hash-tag.png ">
-                    <p class="explore-p ">Explore</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="hashtag-icon " src="/src/images/sidebar/hash-tag.png ">
+                        <p class="explore-p ">Explore</p>
+                        </span>
+
                 </div>
-                <div class="notifications-div-flex ">
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
                     <img class="notification-icon " src="/src/images/sidebar/notifications.png ">
                     <p class="notifications-p ">Notifications</p>
+                    </span>
                 </div>
-                <div class="messages-div-flex ">
-                    <img class="envelop-icon " src="/src/images/sidebar/envelope.png ">
-                    <p class="messages-p ">Messages</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="envelop-icon " src="/src/images/sidebar/envelope.png ">
+                        <p class="messages-p ">Messages</p>
+                        </span>
+
                 </div>
-                <div class="bookmarks-div-flex ">
-                    <img class="bookmarks-icon " src="/src/images/sidebar/bookmark.png ">
-                    <p class="bookmarks-p ">Bookmarks</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="bookmarks-icon " src="/src/images/sidebar/bookmark.png ">
+                        <p class="bookmarks-p ">Bookmarks</p>
+                        </span>
+
                 </div>
-                <div class="lists-div-flex ">
-                    <img class="lists-icon " src="/src/images/sidebar/list.png ">
-                    <p class="lists-p ">Lists</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="lists-icon " src="/src/images/sidebar/list.png ">
+                        <p class="lists-p ">Lists</p>
+                        </span>
+
                 </div>
-                <div class="profile-div-flex ">
-                    <img class="profile-icon " src="/src/images/sidebar/profile.png ">
-                    <p class="profile-p ">Profile</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="profile-icon " src="/src/images/sidebar/profile.png ">
+                        <p class="profile-p ">Profile</p>
+                        </span>
+
                 </div>
-                <div class="more-div-flex ">
-                    <img class="more-icon " src="/src/images/sidebar/more.png ">
-                    <p class="more-p ">More</p>
+                <div class="div-flex ">
+                    <span class="span-class1-flex">
+                        <img class="more-icon " src="/src/images/sidebar/more.png ">
+                        <p class="more-p ">More</p>
+                        </span>
+
                 </div>
                 <button class="tweet-btn ">Tweet</button>
             </div>
@@ -69,246 +91,362 @@
             </div>
 
         </div>
-        <div class="middle-div-flex">
-            <div class="middle-home-flex">
-                <p class="middle-head-p">Home</p>
-                <img class="sparkle-icon" src="/src/images/header/sparkle.png">
-            </div>
-            <div class="content-flex">
-                <img class="profile-img1" src="/src/images/sidebar/profile-pic.jpg ">
-                <div class="content-div-flex">
-                    <div>
-                        <div class="choose-audience">
-                            <select class="choose-aud-select">
-                                <option>Everyone</option>
-                                <option>Twitter Circle</option>
-                              </select>
-                        </div>
+        <div class="middle-right-flex">
+            <!-- middle-section and right-section -->
+            <div class="middle-div-flex">
+                <div class="middle-home-flex">
+                    <p class="middle-head-p">Home</p>
+                    <img class="sparkle-icon" src="/src/images/header/sparkle.png">
+                </div>
+                <div class="content-flex">
+                    <img class="profile-img1" src="/src/images/sidebar/profile-pic.jpg ">
+                    <div class="content-div-flex">
                         <div>
-                            <input class="whats-happening" placeholder="What's happening?">
+                            <div class="choose-audience">
+                                <select class="choose-aud-select">
+                                    <option>Everyone</option>
+                                    <option>Twitter Circle</option>
+                                  </select>
+                            </div>
+                            <div>
+                                <input class="whats-happening" placeholder="What's happening?">
+                            </div>
+                            <div class="who-can-reply">
+                                <i id="globe-icon" class="fa fa-globe" aria-hidden="true"></i>
+                                <select class="who-can-reply-select">
+                                    <option>Everyone can reply</option>
+                                    <option>People you follow</option>
+                                    <option>Only People you mention</option>
+                                  </select>
+                            </div>
                         </div>
-                        <div class="who-can-reply">
-                            <i id="globe-icon" class="fa fa-globe" aria-hidden="true"></i>
-                            <select class="who-can-reply-select">
-                                <option>Everyone can reply</option>
-                                <option>People you follow</option>
-                                <option>Only People you mention</option>
-                              </select>
+                        <div class="icons-list-flex">
+                            <div class="icons-list">
+                                <i id="image-icon" class="fa fa-picture-o" aria-hidden="true"></i>
+                                <i id="gif-icon" class="fa fa-id-card-o" aria-hidden="true"></i>
+                                <i id="poll-icon" class="fa fa-tasks" aria-hidden="true"></i>
+                                <i id="emoji-icon" class="fa fa-smile-o" aria-hidden="true"></i>
+                                <i id="schedule-icon" class="fa fa-calendar" aria-hidden="true"></i>
+                                <i id="location-icon" class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <button class="tweet-button">Tweet</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="icons-list-flex">
-                        <div class="icons-list">
-                            <i id="image-icon" class="fa fa-picture-o" aria-hidden="true"></i>
-                            <i id="gif-icon" class="fa fa-id-card-o" aria-hidden="true"></i>
-                            <i id="poll-icon" class="fa fa-tasks" aria-hidden="true"></i>
-                            <i id="emoji-icon" class="fa fa-smile-o" aria-hidden="true"></i>
-                            <i id="schedule-icon" class="fa fa-calendar" aria-hidden="true"></i>
-                            <i id="location-icon" class="fa fa-map-marker" aria-hidden="true"></i>
-                        </div>
+                </div>
+                <div class="post-flex">
+                    <div class="post-see-more-flex">
                         <div>
-                            <button class="tweet-button">Tweet</button>
+                            <img class="chat-icon" src="/src/images/middlesection/chat.png">
+                        </div>
+                        <div class="see-more-flex">
+                            <p class="food-p">Food .</p>
+                            <p class="see-more-p">&nbsp;See more</p>
                         </div>
                     </div>
+                    <div class="post-details-flex">
+                        <div class="prof-imgs-div">
+                            <img class="prof-images" src="/src/images/middlesection/burger.jfif">
+                        </div>
+                        <div class="post-content-details">
+                            <div class="post-head-details">
+                                <div class="post-head-flex">
+                                    <div class="post-title-flex">
+                                        <p class="post-desc-p">Food Crush &nbsp;</p>
+                                        <p class="post-desc-p-at">@TemptingFoodNow · 15h</p>
+                                    </div>
+                                    <div class="dots-menu-icon">
+                                        <img class="dots-menu" src="/src/images/middlesection/dots.png">
+                                    </div>
+                                </div>
+                                <div class="description-post">
+                                    Succulent steak.
+                                </div>
+                            </div>
+                            <div class="imgs">
+                                <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
+                            </div>
+                            <div class="icons4-flex">
+                                <i class="fa fa-comment" aria-hidden="true"></i>
+                                <i class="fa fa-retweet" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="post-details-flex">
+                        <div class="prof-imgs-div">
+                            <img class="prof-images" src="/src/images/middlesection/burger.jfif">
+                        </div>
+                        <div class="post-content-details">
+                            <div class="post-head-details">
+                                <div class="post-head-flex">
+                                    <div class="post-title-flex">
+                                        <p class="post-desc-p">Food Crush &nbsp;</p>
+                                        <p class="post-desc-p-at">@TemptingFoodNow · 15h</p>
+                                    </div>
+                                    <div class="dots-menu-icon">
+                                        <img class="dots-menu" src="/src/images/middlesection/dots.png">
+                                    </div>
+                                </div>
+                                <div class="description-post">
+                                    Succulent steak.
+                                </div>
+                            </div>
+                            <div class="imgs">
+                                <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
+                            </div>
+                            <div class="icons4-flex">
+                                <i class="fa fa-comment" aria-hidden="true"></i>
+                                <i class="fa fa-retweet" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="post-details-flex">
+                        <div class="prof-imgs-div">
+                            <img class="prof-images" src="/src/images/middlesection/burger.jfif">
+                        </div>
+                        <div class="post-content-details">
+                            <div class="post-head-details">
+                                <div class="post-head-flex">
+                                    <div class="post-title-flex">
+                                        <p class="post-desc-p">Food Crush &nbsp;</p>
+                                        <p class="post-desc-p-at">@TemptingFoodNow · 15h</p>
+                                    </div>
+                                    <div class="dots-menu-icon">
+                                        <img class="dots-menu" src="/src/images/middlesection/dots.png">
+                                    </div>
+                                </div>
+                                <div class="description-post">
+                                    Succulent steak.
+                                </div>
+                            </div>
+                            <div class="imgs">
+                                <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
+                            </div>
+                            <div class="icons4-flex">
+                                <i class="fa fa-comment" aria-hidden="true"></i>
+                                <i class="fa fa-retweet" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="post-details-flex">
+                        <div class="prof-imgs-div">
+                            <img class="prof-images" src="/src/images/middlesection/burger.jfif">
+                        </div>
+                        <div class="post-content-details">
+                            <div class="post-head-details">
+                                <div class="post-head-flex">
+                                    <div class="post-title-flex">
+                                        <p class="post-desc-p">Food Crush &nbsp;</p>
+                                        <p class="post-desc-p-at">@TemptingFoodNow · 15h</p>
+                                    </div>
+                                    <div class="dots-menu-icon">
+                                        <img class="dots-menu" src="/src/images/middlesection/dots.png">
+                                    </div>
+                                </div>
+                                <div class="description-post">
+                                    Succulent steak.
+                                </div>
+                            </div>
+                            <div class="imgs">
+                                <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
+                            </div>
+                            <div class="icons4-flex">
+                                <i class="fa fa-comment" aria-hidden="true"></i>
+                                <i class="fa fa-retweet" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
-            <div class="post-flex">
-                <div class="post-see-more-flex">
-                    <div>
-                        <img class="chat-icon" src="/src/images/middlesection/chat.png">
+            <div class="right-div-flex">test
+                <div class="header-right-flex">
+                    <div class="input-icons">
+                        <i class="fa fa-search icon" aria-hidden="true"></i>
+                        <input class="search-twitter-input" type="text" placeholder="Search Twitter">
                     </div>
-                    <div class="see-more-flex">
-                        <p class="food-p">Food .</p>
-                        <p class="see-more-p">&nbspSee more</p>
-                    </div>
+
                 </div>
-                <div class="post-details-flex">
-                    <div class="prof-imgs-div">
-                        <img class="prof-images" src="/src/images/middlesection/burger.jfif">
-                    </div>
-                    <div class="post-content-details">
-                        <div class="post-head-details">
-                            <div class="post-head-flex">
-                                <div class="post-title-flex">
-                                    <p>Food Crush </p>
-                                    <p>@TemptingFoodNow · 15h</p>
-                                </div>
-                                <div class="dots-menu-icon">
-                                    <img class="dots-menu" src="/src/images/middlesection/dots.png">
-                                </div>
+                <div class="whats-happening-flex">
+                    <p class="wp-p">What's happening</p>
+                    <div class="wh">
+                        <div class="wh-div1">
+                            <p class="c1">Music · 3 hours ago</p>
+                            <div class="c2">
+                                <p class="c2-desc"> Charlie Puth and Jungkook's new song Left and Right drops on Friday
+                                    <img class="c2-img" src="/src/images/right/music-icon.svg">
+                                </p>
                             </div>
-                            <div>
-                                Succulent steak.
+                            <div class="c3-flex">
+                                <p class="c3-desc1">Trending with </p>
+                                <p class="c3-desc2">&nbsp; jungkook</p>
                             </div>
                         </div>
-                        <div class="imgs">
-                            <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
+                        <div class="wh-div2">
+                            <img class="wh-div2-img" src="/src/images/right/wh-1.jfif">
                         </div>
-                        <div class="icons4-flex">
-                            <i class="fa fa-comment" aria-hidden="true"></i>
-                            <i class="fa fa-retweet" aria-hidden="true"></i>
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-
-                        </div>
-
                     </div>
+                    <div class="wh">
+                        <div class="wh-div1">
+                            <p class="c1">Music · 3 hours ago</p>
+                            <div class="c2">
+                                <p class="c2-desc"> Charlie Puth and Jungkook's new song Left and Right drops on Friday
+                                    <img class="c2-img" src="/src/images/right/music-icon.svg">
+                                </p>
+                            </div>
+                            <div class="c3-flex">
+                                <p class="c3-desc1">Trending with </p>
+                                <p class="c3-desc2">&nbsp; jungkook</p>
+                            </div>
+                        </div>
+                        <div class="wh-div2">
+                            <img class="wh-div2-img" src="/src/images/right/wh-1.jfif">
+                        </div>
+                    </div>
+                    <div class="wh">
+                        <div class="wh-div1">
+                            <p class="c1">Music · 3 hours ago</p>
+                            <div class="c2">
+                                <p class="c2-desc"> Charlie Puth and Jungkook's new song Left and Right drops on Friday
+                                    <img class="c2-img" src="/src/images/right/music-icon.svg">
+                                </p>
+                            </div>
+                            <div class="c3-flex">
+                                <p class="c3-desc1">Trending with </p>
+                                <p class="c3-desc2">&nbsp; jungkook</p>
+                            </div>
+                        </div>
+                        <div class="wh-div2">
+                            <img class="wh-div2-img" src="/src/images/right/wh-1.jfif">
+                        </div>
+                    </div>
+                    <div class="wh">
+                        <div class="wh-div1">
+                            <p class="c1">Music · 3 hours ago</p>
+                            <div class="c2">
+                                <p class="c2-desc"> Charlie Puth and Jungkook's new song Left and Right drops on Friday
+                                    <img class="c2-img" src="/src/images/right/music-icon.svg">
+                                </p>
+                            </div>
+                            <div class="c3-flex">
+                                <p class="c3-desc1">Trending with </p>
+                                <p class="c3-desc2">&nbsp; jungkook</p>
+                            </div>
+                        </div>
+                        <div class="wh-div2">
+                            <img class="wh-div2-img" src="/src/images/right/wh-1.jfif">
+                        </div>
+                    </div>
+                    <div class="wh">
+                        <div class="wh-div1">
+                            <p class="c1">Music · 3 hours ago</p>
+                            <div class="c2">
+                                <p class="c2-desc"> Charlie Puth and Jungkook's new song Left and Right drops on Friday
+                                    <img class="c2-img" src="/src/images/right/music-icon.svg">
+                                </p>
+                            </div>
+                            <div class="c3-flex">
+                                <p class="c3-desc1">Trending with </p>
+                                <p class="c3-desc2">&nbsp; jungkook</p>
+                            </div>
+                        </div>
+                        <div class="wh-div2">
+                            <img class="wh-div2-img" src="/src/images/right/wh-1.jfif">
+                        </div>
+                    </div>
+                    <div class="wh">
+                        <div class="wh-div1">
+                            <p class="c1">Music · 3 hours ago</p>
+                            <div class="c2">
+                                <p class="c2-desc"> Charlie Puth and Jungkook's new song Left and Right drops on Friday
+                                    <img class="c2-img" src="/src/images/right/music-icon.svg">
+                                </p>
+                            </div>
+                            <div class="c3-flex">
+                                <p class="c3-desc1">Trending with </p>
+                                <p class="c3-desc2">&nbsp; jungkook</p>
+                            </div>
+                        </div>
+                        <div class="wh-div2">
+                            <img class="wh-div2-img" src="/src/images/right/wh-1.jfif">
+                        </div>
+                    </div>
+                    <div class="show-more">Show more</div>
                 </div>
+                <div class="who-to-follow-flex">
+                    <p class="who-to-follow-p">Who to follow</p>
+                    <div class="follow-profile-details-flex">
+                        <img class="fp-img" src="/src/images/right/fp-img-icon.png">
+                        <div class="fp-content-flex">
+                            <div class="fp-content-head-flex">
+                                <p class="fp-head">aramco</p>
+                                <img class="fp-verified-img" src="/src/images/right/verified.png">
+                            </div>
+                            <p class="at-p">@aramco</p>
+                            <div class="promoted-flex">
+                                <img class="open-link-icon" src="/src/images/right/share.png">
+                                <p class="prompted">Promoted</p>
+                            </div>
+                        </div>
+                        <button class="follow-btn">Follow</button>
+                    </div>
+                    <div class="follow-profile-details-flex">
+                        <img class="fp-img" src="/src/images/right/fp-img-icon.png">
+                        <div class="fp-content-flex">
+                            <div class="fp-content-head-flex">
+                                <p class="fp-head">aramco</p>
+                                <img class="fp-verified-img" src="/src/images/right/verified.png">
+                            </div>
+                            <p class="at-p">@aramco</p>
+                            <div class="promoted-flex">
+                                <img class="open-link-icon" src="/src/images/right/share.png">
+                                <p class="prompted">Promoted</p>
+                            </div>
+                        </div>
+                        <button class="follow-btn">Follow</button>
+                    </div>
+                    <div class="follow-profile-details-flex">
+                        <img class="fp-img" src="/src/images/right/fp-img-icon.png">
+                        <div class="fp-content-flex">
+                            <div class="fp-content-head-flex">
+                                <p class="fp-head">aramco</p>
+                                <img class="fp-verified-img" src="/src/images/right/verified.png">
+                            </div>
+                            <p class="at-p">@aramco</p>
+                            <div class="promoted-flex">
+                                <img class="open-link-icon" src="/src/images/right/share.png">
+                                <p class="prompted">Promoted</p>
+                            </div>
+                        </div>
+                        <button class="follow-btn">Follow</button>
+                    </div>
+                    <div class="show-more">Show more</div>
+                </div>
+                <!--   <div>
+
+                </div> -->
             </div>
-            <div class="post-flex">
-                <div class="post-see-more-flex">
-                    <div>
-                        <img class="chat-icon" src="/src/images/middlesection/chat.png">
-                    </div>
-                    <div class="see-more-flex">
-                        <p class="food-p">Food .</p>
-                        <p class="see-more-p">&nbspSee more</p>
-                    </div>
-                </div>
-                <div class="post-details-flex">
-                    <div class="prof-imgs-div">
-                        <img class="prof-images" src="/src/images/middlesection/burger.jfif">
-                    </div>
-                    <div class="post-content-details">
-                        <div class="post-head-details">
-                            <div class="post-head-flex">
-                                <div class="post-title-flex">
-                                    <p>Food Crush </p>
-                                    <p>@TemptingFoodNow · 15h</p>
-                                </div>
-                                <div class="dots-menu-icon">
-                                    <img class="dots-menu" src="/src/images/middlesection/dots.png">
-                                </div>
-                            </div>
-                            <div>
-                                Succulent steak.
-                            </div>
-                        </div>
-                        <div class="imgs">
-                            <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
-                        </div>
-                        <div class="icons4-flex">
-                            <i class="fa fa-comment" aria-hidden="true"></i>
-                            <i class="fa fa-retweet" aria-hidden="true"></i>
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
 
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="post-flex">
-                <div class="post-see-more-flex">
-                    <div>
-                        <img class="chat-icon" src="/src/images/middlesection/chat.png">
-                    </div>
-                    <div class="see-more-flex">
-                        <p class="food-p">Food .</p>
-                        <p class="see-more-p">&nbspSee more</p>
-                    </div>
-                </div>
-                <div class="post-details-flex">
-                    <div class="prof-imgs-div">
-                        <img class="prof-images" src="/src/images/middlesection/burger.jfif">
-                    </div>
-                    <div class="post-content-details">
-                        <div class="post-head-details">
-                            <div class="post-head-flex">
-                                <div class="post-title-flex">
-                                    <p>Food Crush </p>
-                                    <p>@TemptingFoodNow · 15h</p>
-                                </div>
-                                <div class="dots-menu-icon">
-                                    <img class="dots-menu" src="/src/images/middlesection/dots.png">
-                                </div>
-                            </div>
-                            <div>
-                                Succulent steak.
-                            </div>
-                        </div>
-                        <div class="imgs">
-                            <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
-                        </div>
-                        <div class="icons4-flex">
-                            <i class="fa fa-comment" aria-hidden="true"></i>
-                            <i class="fa fa-retweet" aria-hidden="true"></i>
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="post-flex">
-                <div class="post-see-more-flex">
-                    <div>
-                        <img class="chat-icon" src="/src/images/middlesection/chat.png">
-                    </div>
-                    <div class="see-more-flex">
-                        <p class="food-p">Food .</p>
-                        <p class="see-more-p">&nbspSee more</p>
-                    </div>
-                </div>
-                <div class="post-details-flex">
-                    <div class="prof-imgs-div">
-                        <img class="prof-images" src="/src/images/middlesection/burger.jfif">
-                    </div>
-                    <div class="post-content-details">
-                        <div class="post-head-details">
-                            <div class="post-head-flex">
-                                <div class="post-title-flex">
-                                    <p>Food Crush </p>
-                                    <p>@TemptingFoodNow · 15h</p>
-                                </div>
-                                <div class="dots-menu-icon">
-                                    <img class="dots-menu" src="/src/images/middlesection/dots.png">
-                                </div>
-                            </div>
-                            <div>
-                                Succulent steak.
-                            </div>
-                        </div>
-                        <div class="imgs">
-                            <img class="imgs-icon" src="/src/images/middlesection/steak.jfif">
-                        </div>
-                        <div class="icons4-flex">
-                            <i class="fa fa-comment" aria-hidden="true"></i>
-                            <i class="fa fa-retweet" aria-hidden="true"></i>
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                            <i class="fa fa-share-alt" aria-hidden="true"></i>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="right-div-flex">
-            <div class="header-right-flex">
-                <input class="search-twitter-input" type="text" placeholder="Search Twitter">
-            </div>
-            <div>
-                <p>What's happening</p>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
-                <p>Who to follow</p>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
 
-            </div>
-        </div>
 
     </div>
 

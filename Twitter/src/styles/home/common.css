@@ -1,0 +1,21 @@
+.main-div-flex {
+    display: flex;
+    flex-direction: row;
+    /* width: 1fr; */
+}
+
+.middle-right-flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 313px;
+    /* position: relative;
+    left: 313px;
+    right: 0px;
+    top: 0px;*/
+    /* bottom: -10px; */
+    /* background-color: aqua; */
+    /* margin-bottom: 0px; */
+    width: 100%;
+    /* width: 1fr; */
+    margin-right: -8px;
+}
