@@ -1,9 +1,9 @@
 .sidebar-flex {
     display: flex;
     flex-direction: column;
-    padding-top: 12px;
+    padding-top: 4px;
     /* padding-right: 10px; */
-    padding-left: 60px;
+    padding-left: 54px;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -20,19 +20,20 @@
     flex-direction: column;
     justify-content: space-between;
     line-height: 12px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .twitter-bird-icon {
     height: 34px;
     width: 34px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-radius: 26px;
     padding: 8px;
 }
 
 .twitter-bird-icon:hover {
     background-color: rgb(223, 241, 254);
+    cursor: pointer;
 }
 
 .div-flex {
@@ -52,6 +53,7 @@
 .span-class1-flex:hover {
     background-color: rgb(15, 20, 25, 0.1);
     border-radius: 30px;
+    cursor: pointer;
     /* padding-left: 20px;
     padding-right: 20px; */
 }
@@ -200,24 +202,36 @@
     font-size: 19px;
     color: white;
     margin-top: 8px;
-    /* transition: opacity 0.15s; */
+    transition: background-color 0.5s;
 }
 
 .tweet-btn:hover {
-    /* opacity: 1; */
-    background-color: rgb(18, 146, 201);
+    /* opacity: 0.5; */
+    background-color: rgb(10, 127, 206);
+    cursor: pointer;
 }
 
 .sidebar-bottom-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* margin-bottom: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 46px;
+}
+
+.sidebar-bottom-flex:hover {
+    background-color: rgb(15, 20, 25, 0.1);
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .profile-img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
 }
 
 .profile-details-div {

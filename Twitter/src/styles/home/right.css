@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     /* background-color: lightcoral; */
-    width: 100%;
+    width: 427px;
     /* position: relative;
     left: 313px;
     top: 0px;
@@ -83,6 +83,7 @@
     /* display: flex;
     flex-direction: row;
     align-items: center; */
+    cursor: pointer;
     background-color: rgba(236, 233, 233, 0.8);
 }
 
@@ -160,6 +161,7 @@
 
 .follow-profile-details-flex:hover {
     background-color: rgba(236, 233, 233, 0.8);
+    cursor: pointer;
 }
 
 .fp-img {
@@ -242,4 +244,5 @@
     background-color: rgba(236, 233, 233, 0.8);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }

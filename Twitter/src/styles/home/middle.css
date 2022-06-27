@@ -60,6 +60,7 @@
     margin-left: 14px;
     font-weight: 700;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -71,14 +72,29 @@
 .sparkle-icon {
     height: 24px;
     width: 24px;
-    padding-right: 15px;
+    margin-right: 15px;
+    padding: 6px;
+}
+
+.sparkle-icon:hover {
+    background-color: rgb(220, 220, 220);
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .profile-img1 {
     height: 50px;
     width: 50px;
     border-radius: 25px;
-    /* padding-right: 10px; */
+    transition: filter 0.15s;
+}
+
+
+/*To fill color on top of the image*/
+
+.profile-img1:hover {
+    filter: opacity(0.7) drop-shadow(0 0 0 rgb(114, 113, 113));
+    cursor: pointer;
 }
 
 .content-div-flex {
@@ -105,6 +121,11 @@
     margin-bottom: 18px;
 }
 
+.choose-aud-select:hover {
+    cursor: pointer;
+    background-color: rgb(203, 232, 251);
+}
+
 .whats-happening {
     border: none;
     font-size: 19px;
@@ -121,6 +142,10 @@
 
 #globe-icon {
     color: rgb(0, 172, 238);
+    position: absolute;
+    top: 178px;
+    z-index: 2;
+    padding-left: 10px;
 }
 
 .who-can-reply-select {
@@ -131,6 +156,19 @@
     text-overflow: '';
     color: rgb(0, 172, 238);
     font-weight: 700;
+    padding-left: 28px;
+    padding-right: 0px;
+    border-radius: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    z-index: 1;
+    width: 164px;
+}
+
+.who-can-reply-select:hover {
+    cursor: pointer;
+    background-color: rgb(203, 232, 251);
 }
 
 .icons-list-flex {
@@ -145,33 +183,28 @@
     margin-left: 10px;
 }
 
-#image-icon {
-    padding-right: 12px;
+#icons {
+    padding-left: 10px;
+    padding-right: 10px;
     color: rgb(0, 172, 238);
+    /* transition: padding 0.15s; */
 }
 
-#gif-icon {
-    padding-right: 12px;
-    color: rgb(0, 172, 238);
-}
-
-#poll-icon {
-    padding-right: 12px;
-    color: rgb(0, 172, 238);
-}
-
-#emoji-icon {
-    padding-right: 12px;
-    color: rgb(0, 172, 238);
-}
-
-#schedule-icon {
-    padding-right: 12px;
-    color: rgb(0, 172, 238);
+#icons:hover {
+    cursor: pointer;
+    background-color: rgb(152, 213, 237);
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #location-icon {
+    padding-left: 10px;
+    padding-right: 10px;
     color: rgb(0, 172, 238);
+    opacity: 0.3;
 }
 
 .tweet-button {
@@ -196,11 +229,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 1px solid rgba(225, 223, 223, 0.4);
 }
 
 .chat-icon {
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 12px;
     margin-left: 52px;
     margin-right: 14px;
     color: grey;
@@ -214,12 +248,23 @@
 .food-p {
     color: grey;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.food-span:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .see-more-p {
     color: rgb(18, 168, 233);
     font-size: 12px;
+    font-weight: 700;
+}
+
+.see-more-p:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .post-details-flex {
@@ -230,17 +275,145 @@
     right: 0px; */
     border-bottom: 1px solid rgba(225, 223, 223, 0.4);
     /* background-color: red; */
+    cursor: pointer;
 }
 
 .prof-images {
     height: 50px;
     width: 50px;
     border-radius: 25px;
+    transition: filter 0.15s;
+}
+
+.prof-images:hover {
+    cursor: pointer;
+    filter: opacity(0.7) drop-shadow(0 0 0 rgb(107, 106, 106));
+}
+
+.prof-imgs-div {
+    position: relative;
+}
+
+.pi-div {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.post-content-details {}
+.pi-div .tooltip {
+    position: absolute;
+    background-color: rgb(227, 239, 152);
+    color: black;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: 327px;
+    right: -104px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    border-radius: 12px;
+}
+
+.pi-div .tooltip {
+    opacity: 1;
+}
+
+.tooltip {
+    height: 190px;
+    width: 294px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tooltip-img-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tooltip-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.tooltip-following-btn {
+    border-radius: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    width: 96px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid gray;
+}
+
+.tooltip-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+}
+
+.tooltip-head {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.tooltip-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tooltip-at-p {
+    color: gray;
+    font-weight: 500;
+}
+
+.tooltip-follows-you-div {
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-left: 4px;
+    background-color: rgb(255, 0, 0);
+    height: 16px;
+    border-radius: 4px;
+}
+
+.tool-tip-hash {
+    color: rgb(13, 188, 241);
+}
+
+.tooltip-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tooltip-following {
+    display: flex;
+    flex-direction: row;
+}
+
+.tt-following-count-p {
+    font-weight: 700;
+}
+
+.tt-following-p {}
+
+.tooltip-followers {
+    display: flex;
+    flex-direction: row;
+}
+
+.tt-followers-count-p {
+    font-weight: 700;
+}
+
+.tt-followers-p {}
 
 .post-head-details {
     line-height: 8px;
@@ -256,9 +429,23 @@
     font-weight: 700;
 }
 
+.post-desc-p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .post-desc-p-at {
     color: gray;
     font-size: 14px;
+}
+
+.post-desc-p-at:hover {
+    cursor: pointer;
+}
+
+.post-hrs:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .post-head-flex {
@@ -271,9 +458,15 @@
 }
 
 .dots-menu {
-    height: 24px;
-    width: 24px;
+    height: 12px;
+    width: 12px;
     margin-right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.dots-menu:hover {
+    background-color: rgb(203, 232, 251);
 }
 
 .description-post {
@@ -297,6 +490,37 @@
     justify-content: space-between;
     margin-right: 80px;
     margin-bottom: 14px;
+}
+
+.comment-icon,
+.retweet-icon,
+.heart-icon,
+.share-icon {
+    color: rgb(153, 153, 153);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.4s;
+}
+
+.comment-icon:hover {
+    color: rgb(18, 183, 239);
+    background-color: rgb(183, 229, 244);
+}
+
+.retweet-icon:hover {
+    color: rgb(11, 184, 11);
+    background-color: rgb(200, 246, 200);
+}
+
+.heart-icon:hover {
+    color: red;
+    background-color: rgb(241, 203, 203);
+}
+
+.share-icon:hover {
+    color: rgb(18, 183, 239);
+    background-color: rgb(183, 229, 244);
+    ;
 }
 
 .who-to-follow-flex {
