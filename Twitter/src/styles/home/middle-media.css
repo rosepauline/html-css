@@ -1,0 +1,28 @@
+/* @media (max-width: 1000px) {
+    .middle-div-flex {
+        width: 932px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .middle-home-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 943px;
+        align-items: center;
+        z-index: 20;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content-flex {
+        width: 932px;
+    }
+} */

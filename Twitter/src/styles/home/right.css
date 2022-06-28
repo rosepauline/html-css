@@ -1,25 +1,15 @@
 .right-div-flex {
     display: flex;
     flex-direction: column;
-    /* background-color: lightcoral; */
     width: 427px;
-    /* position: relative;
-    left: 313px;
-    top: 0px;
-    bottom: 0px;
-    width: 428px; */
-    /* width: 1fr; */
-    /* border-left: 1px solid rgba(0, 0, 0, 0.4); */
     border-left: 1px solid rgba(225, 223, 223, 0.4);
 }
 
 .header-right-flex {
     background-color: white;
     position: fixed;
-    left: 921px;
+    left: 915px;
     right: 0px;
-    /* height: 51px; */
-    /* width: 100%; */
     padding-left: 25px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -76,13 +66,9 @@
     flex-direction: row;
     align-items: center;
     padding-left: 20px;
-    /* padding-right: 7px; */
 }
 
 .wh:hover {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center; */
     cursor: pointer;
     background-color: rgba(236, 233, 233, 0.8);
 }
@@ -245,4 +231,11 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .right-div-flex {
+        display: none;
+        width: 0px;
+    }
 }

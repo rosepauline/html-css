@@ -1,0 +1,6 @@
+@media (max-width: 999px) {
+    .right-div-flex {
+        display: none;
+        width: 0px;
+    }
+}

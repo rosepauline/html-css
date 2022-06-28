@@ -2,13 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 600px;
-    /* background-color: blueviolet; */
-    /* position: relative;
-    left: 320px;
-    top: 0px;
-    bottom: 0px;
-    width: 600px; */
-    /* background-color: aqua; */
 }
 
 .middle-home-flex {
@@ -18,22 +11,14 @@
     background-color: white;
     position: fixed;
     top: 0px;
-    left: 321px;
+    left: 315px;
     right: 0px;
     width: 600px;
-    /* border-right: 0.001px solid rgb(233, 233, 233); */
     align-items: center;
     z-index: 20;
-    /* background-color: gold; */
 }
 
 .content-flex {
-    /* position: relative;
-    top: 51px;
-    left: -321px;
-    right: 0px;
-    width: 600px; */
-    /* width: 600px; */
     width: 100%;
     margin-top: 75px;
     display: flex;
@@ -42,17 +27,11 @@
     z-index: 19;
     border-bottom: 1px solid rgba(225, 223, 223, 0.4);
     padding-bottom: 10px;
-    /* background-color: pink; */
 }
 
 .post-flex {
     display: flex;
     flex-direction: column;
-    /* position: relative;
-    top: 51px;
-    left: -8px;
-    right: 0px;
-    width: 600px; */
     background-color: white;
 }
 
@@ -62,12 +41,6 @@
     font-size: 20px;
     cursor: pointer;
 }
-
-
-/* .profile-img1 {
-    height: 28px;
-    width: 28px;
-} */
 
 .sparkle-icon {
     height: 24px;
@@ -88,9 +61,6 @@
     border-radius: 25px;
     transition: filter 0.15s;
 }
-
-
-/*To fill color on top of the image*/
 
 .profile-img1:hover {
     filter: opacity(0.7) drop-shadow(0 0 0 rgb(114, 113, 113));
@@ -129,7 +99,6 @@
 .whats-happening {
     border: none;
     font-size: 19px;
-    /* color: rgb(0, 0, 0); */
     padding-left: 8px;
 }
 
@@ -187,7 +156,6 @@
     padding-left: 10px;
     padding-right: 10px;
     color: rgb(0, 172, 238);
-    /* transition: padding 0.15s; */
 }
 
 #icons:hover {
@@ -270,12 +238,14 @@
 .post-details-flex {
     display: flex;
     flex-direction: row;
-    /* position: relative;
-    left: 0px;
-    right: 0px; */
     border-bottom: 1px solid rgba(225, 223, 223, 0.4);
-    /* background-color: red; */
     cursor: pointer;
+    transition: background-color 0.8s;
+    width: 1000px;
+}
+
+.post-details-flex:hover {
+    background-color: rgb(240 240 240);
 }
 
 .prof-images {
@@ -301,28 +271,29 @@
 
 .pi-div .tooltip {
     position: absolute;
-    background-color: rgb(227, 239, 152);
+    background-color: rgb(255, 255, 255);
     color: black;
-    padding: 4px;
+    padding: 14px;
     border-radius: 2px;
     font-size: 12px;
-    bottom: 327px;
-    right: -104px;
+    bottom: 287px;
+    right: -137px;
     opacity: 0;
     transition: opacity 0.15s;
     pointer-events: none;
     border-radius: 12px;
 }
 
-.pi-div .tooltip {
+.pi-div:hover .tooltip {
     opacity: 1;
 }
 
 .tooltip {
-    height: 190px;
+    height: 166px;
     width: 294px;
     display: flex;
     flex-direction: column;
+    border: 1px solid rgba(225, 223, 223, 1);
 }
 
 .tooltip-img-btn {
@@ -343,11 +314,12 @@
     padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    height: 34px;
+    height: 32px;
     width: 96px;
     font-size: 15px;
-    font-weight: 600;
-    border: 1px solid gray;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
 }
 
 .tooltip-content {
@@ -357,7 +329,7 @@
 }
 
 .tooltip-head {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 4px;
 }
@@ -366,11 +338,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .tooltip-at-p {
-    color: gray;
+    color: rgb(165, 164, 164);
     font-weight: 500;
+    font-size: 14px;
 }
 
 .tooltip-follows-you-div {
@@ -378,19 +352,28 @@
     align-items: center;
     color: gray;
     margin-left: 4px;
-    background-color: rgb(255, 0, 0);
-    height: 16px;
+    background-color: rgb(235, 235, 235);
+    font-size: 11px;
+    font-weight: 500;
+    height: 14px;
     border-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .tool-tip-hash {
     color: rgb(13, 188, 241);
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .tooltip-follow {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    font-size: 14px;
+    /* justify-content: space-between; */
 }
 
 .tooltip-following {
@@ -400,20 +383,27 @@
 
 .tt-following-count-p {
     font-weight: 700;
+    margin-right: 4px;
 }
 
-.tt-following-p {}
+.tt-following-p {
+    color: gray;
+}
 
 .tooltip-followers {
     display: flex;
     flex-direction: row;
+    margin-left: 16px;
 }
 
 .tt-followers-count-p {
     font-weight: 700;
+    margin-right: 4px;
 }
 
-.tt-followers-p {}
+.tt-followers-p {
+    color: gray;
+}
 
 .post-head-details {
     line-height: 8px;
@@ -454,7 +444,6 @@
     align-items: center;
     justify-content: space-between;
     width: 510px;
-    /* background-color: aquamarine; */
 }
 
 .dots-menu {
@@ -526,4 +515,68 @@
 .who-to-follow-flex {
     display: flex;
     flex-direction: row;
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .middle-div-flex {
+        width: 932px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .middle-home-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 943px;
+        align-items: center;
+        z-index: 20;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .content-flex {
+        width: 932px;
+        /* margin-top: 10px; */
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .content-div-flex {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .profile-img1 {
+        display: none;
+    }
+}
+
+@media (max-width: 499px) {
+    .imgs-icon {
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .imgs-icon {
+        height: 650px;
+        width: 650px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    .post-content-details {
+        padding-right: 40px;
+    }
 }
